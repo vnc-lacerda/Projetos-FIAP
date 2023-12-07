@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../Assets/CSS/CashCraft.css">
+
+     <!-- Linkando um servidor CND para reconhecer o icones -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+     
+     <title>CashCraft</title>
+</head>
+<body>
+
+     <!-- Primeira página: login -->
+     <div class="container">
+          <img src="../Assets/Images/Screenshot 2023-12-04 at 11.51.36.png" alt="Cashcraft logo" class="logo"> <!-- logo cashcraft com fundo amarelo e letras pretas -->
+          <div class="row">
+               <div class="col-md-6 offset-md-3">
+                    <div class="card">
+                    <div class="card-body">
+                         <h1 class="card-title">Faça login no Cashcraft</h1>
+                         <form action="login.php" method="post">
+                              <div class="form-group">
+                                   <label for="email">E-mail:</label>
+                                   <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail" required>
+                              </div>
+                              <div class="form-group">
+                                   <label for="password">Senha:</label>
+                                   <input type="password" id="password" name="password" class="form-control" placeholder="Digite sua senha" required>
+                              </div>
+                              <button type="submit" class="btn btn-lg btn-block">Login</button>
+                         </form>
+                         <p class="card-text">Ou entre com:</p>
+                         <div class="row">
+                              <div class="col-md-6">
+                                   <a href="#" class="btn btn-lg btn-block"><i class="fa-brands fa-google" "icon"></i>
+                                   </a> <!-- opção de logar com a conta google -->
+                              </div>
+                              <div class="col-md-6">
+                                   <a href="#" class="btn btn-lg btn-block">
+                                        <i class="fa-brands fa-apple" "icon"></i>
+                                   </a> <!-- opção de logar com a conta apple -->
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
+     
+</body>
+</html>
